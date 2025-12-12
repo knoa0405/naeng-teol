@@ -1,5 +1,3 @@
-export const runtime = "nodejs";
-
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";

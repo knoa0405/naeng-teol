@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "bun run --bun next dev",
     "prebuild": "prisma generate",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "build": "bun run --bun next build",
+    "start": "bun run --bun next start",
+    "lint": "bun run --bun next lint",
     "format": "prettier --write .",
     "migrate:lint": "bunx @eslint/migrate-config .eslintrc.json"
   },
